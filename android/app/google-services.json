@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "257998319388",
+    "firebase_url": "https://better-call-noob.firebaseio.com",
+    "project_id": "better-call-noob",
+    "storage_bucket": "better-call-noob.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257998319388:android:c7648ca4aecaf0db6ed4d9",
+        "android_client_info": {
+          "package_name": "better.call.noob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257998319388-hggrs0mrhg44utu2u3rss9pqquit26g5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkK0Ig8eTFF9z5PPXi2_banql6q0Vi18o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257998319388-hggrs0mrhg44utu2u3rss9pqquit26g5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
