@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:better_call_noob/model/user.dart';
+import 'package:better_call_noob/services/database.dart';
 
 class AuthService {
   // sign in anon
@@ -36,9 +37,11 @@ class AuthService {
 
       FirebaseUser user = result.user;
 
-      print('new user created!');
+      Database db = await Database(uid: user.uid);
 
-      return User(uid: user.uid);
+      await db.update_user_data('Saul Goodman', email, 1);
+
+      return _userFromFirebaseUser(user);
     } catch (e) {
       return null; // null user means invalid user
     }
